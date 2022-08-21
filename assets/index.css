@@ -48,7 +48,7 @@ a:hover {
 }
 
 .button.button-full {
-  width: 100%;
+  width: auto;
 }
 
 .button:hover {
