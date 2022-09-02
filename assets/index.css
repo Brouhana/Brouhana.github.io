@@ -127,6 +127,10 @@ a:hover {
   font-family: 'Silkscreen';
 }
 
+.heading-label_large {
+  font-size: 45px; 
+}
+
 .heading-small-label {
   font-size: 14px;
   font-weight: 800;
