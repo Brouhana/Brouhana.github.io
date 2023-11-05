@@ -1,65 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Brennan Rouhana</title>
-    <meta name="description" content="See what Brennan is up to">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/stylesheets/index.css">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <meta charset="utf-8" />
+  <meta name="description" content="Brennan is a full-stack developer that builds meaningful software" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brennan Rouhana</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+  <link rel="stylesheet" href="assets/stylesheets/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="top">
-        <div class="top__content">
-            <span>Brennan Rouhana</span>
+  <div class="container">
+    <section id="about">
+      <header>
+        <h1>Brennan Rouhana</h1>
+      </header>
+      <div class="about">
+        <p>
+          I study computer science at Texas A&M University. I’m interested in
+          application development, innovative and accessible UIs, scalability,
+          and building meaningful software.
+        </p>
+      </div>
+      <div class="links">
+        <div class="link">
+          <a href="https://github.com/brouhana">GitHub</a>
         </div>
-    </div>
-    <div class="tab accordion">
-        <button class="tab__button accordion__button">About</button>
-        <div class="accordion__content">
-            <p>I study computer science at Texas A&M University. I’m interested in human-computer interaction — building
-                innovative and accessible user interfaces, application scalability, and designing and developing
-                software to advance people’s lives. Currently a Software Engineer Intern at Dialexa, an IBM Company</p>
+        <div class="link">
+          <a href="https://linkedin.com/in/brouhana">in/brouhana</a>
         </div>
-    </div>
-    <div class="tab accordion">
-        <button class=" tab__button accordion__button">Projects</button>
-        <div class="accordion__content">
-            <div class="block">
-                <ul>
-                    <li>
-                        <p><strong>Canvas Notify</strong> Frustrated with missing assignments, I created a simple script
-                            to get notified by email when a due date on Canvas, a popular learning management system, is
-                            approaching. <a href="https://github.com/Brouhana/canvas-notify" class="link">GitHub
-                                repo</a></p>
-                    </li>
-                    <li>
-                        <p><strong>Let’s Limo</strong> During Summer 2022, I built Let’s Limo, a platform for smaller
-                            black car and ground transportation operators to easily manage their day-to-day. The app is
-                            web-based, built with React and Flask, and features bookings, driver dispatching, payments,
-                            contacts + much more. A brief preview:</p>
-                        <div style="text-align: center">
-                            <img src="https://brennanrouhana.com/assets/images/letslimo-preview.png" width="700px" />
-                            <img src="https://brennanrouhana.com/assets/images/letslimo-trip.png" width="700px" />
-                    </li>
-                </ul>
+        <div class="link">
+          <a href="https://mailto:brennan@tamu.edu">brennan@tamu.edu</a>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <header>
+        <h2>A glance at what I've done</h2>
+      </header>
+      <ul>
+        <li>
+          <article>
+            <div>
+              <h3>
+                <a href="http://bblocks.live" target="_blank">bblocks.live</a>
+              </h3>
+              <p>
+                Building Blocks is an online classroom game for high school
+                and early college to reinforce programming skills. Built with
+                React, Express, Socket.io and powered by OpenAI's GPT API, and
+                AWS
+              </p>
             </div>
-        </div>
-    </div>
-    <div class="tab">
-        <a href="https://github.com/brouhana" class="tab__button">GitHub</a>
-    </div>
-    <div class="tab">
-        <a href="https://linkedin.com/in/brouhana" class="tab__button">LinkedIn</a>
-    </div>
-    <div class="tab">
-        <a href="mailto:brennan@tamu.edu" class="tab__button">brennan@tamu.edu</a>
-    </div>
-    </div>
-
-    <script src="assets/scripts/accordion.js"></script>
+          </article>
+        </li>
+        <li>
+          <article>
+            <div>
+              <h3>Let's Limo</h3>
+              <p>
+                Let’s Limo is a web app for small and mid-sized black car
+                operators to better manage their daily operations. Powered by
+                Flask, React, Amazon S3, and 3rd-party APIs, it features
+                booking and customer management, driver dispatching, and
+                payments.
+              </p>
+            </div>
+            <div>
+              <img src="https://brennanrouhana.com/assets/images/letslimo-preview.png" height="350px" />
+            </div>
+          </article>
+        </li>
+        <li>
+          <article>
+            <div>
+              <h3>Canvas Notify</h3>
+              <p>
+                <a href="https://github.com/brouhana/canvas-notify" target="_blank">canvas-notify</a>
+                is a Python script that uses the Canvas's API to send an email
+                reminder when assignment due date is upcoming
+              </p>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </div>
 </body>
 
 </html>
