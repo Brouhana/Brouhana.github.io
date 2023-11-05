@@ -120,6 +120,12 @@ section {
   gap: var(--16);
 }
 
+@media (max-width: 700px) {
+  #about .links {
+    flex-direction: column;
+  }
+}
+
 #about .links .link a {
   font-size: var(--20);
   padding: var(--6) var(--0);
