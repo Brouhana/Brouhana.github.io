@@ -76,12 +76,11 @@ p {
 a {
   text-decoration: none;
   border-bottom: var(--2);
-  color: var(--blue-500);
+  color: var(--blue-700);
 }
 
 a:hover {
   border-bottom: var(--2) solid blue;
-  color: var(--blue-700);
 }
 
 .container {
