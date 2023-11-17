@@ -77,12 +77,13 @@ p {
 
 a {
   text-decoration: none;
-  border-bottom: var(--2);
+  border-bottom: var(--2) solid var(--blue-400);
   color: var(--blue-700);
+  transition: 0.2s ease-out;
 }
 
 a:hover {
-  border-bottom: var(--2) solid blue;
+  border-bottom-width: var(--4);
 }
 
 .container {
@@ -178,8 +179,8 @@ section {
   margin: var(--0);
   font-size: var(--24);
   color: var(--neutral-700);
-  animation: fadeIn 1.5s ease-out;
-  -webkit-animation: fadeIn 1.5s ease-out;
+  animation: fadeIn 1s ease-out;
+  -webkit-animation: fadeIn 1s ease-out;
 }
 
 #projects header h2 {
@@ -241,6 +242,7 @@ section {
 
   a {
     color: var(--blue-300);
+    border-color: var(--blue-200);
   }
 
   a:hover {
