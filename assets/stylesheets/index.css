@@ -78,12 +78,11 @@ p {
 a {
   text-decoration: none;
   border-bottom: var(--2);
-  color: var(--blue-500);
+  color: var(--blue-700);
 }
 
 a:hover {
   border-bottom: var(--2) solid blue;
-  color: var(--blue-700);
 }
 
 .container {
@@ -233,7 +232,6 @@ section {
   font-size: var(--20);
   color: var(--neutral-900);
   line-height: var(--32);
-  margin: var(--0);
 }
 
 @media (prefers-color-scheme: dark) {
